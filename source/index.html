@@ -5,8 +5,54 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="page-header__wrap">
+          <a class="page-header__logo">
+            <img class="page-header__logo-image" src="http://placehold.it/75x22" alt="logo Pink" width="75" height="22">
+          </a>
+        </div>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button"></button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item site-list__item--active">
+                <a>Главная</a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">Фотографии</a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">Конкурс</a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">Html Academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page-main">
+        <h1 class="visually-hidden">"Pink" - раскрасте свои серые будни</h1>
+        <section class="page-main__download">
+          <img src="http://placehold.it/320x462">
+          <div class="page-main__download-content">
+            <h2 class="visually-hidden">Взгляните на мир иначе</h2>
+            <a href="#" class="button button--download">Скачать приложение</a>
+            <ul class="page-main__download-list">
+              <li class="page-main__download-list-item">
+                <a href="#" class="page-main__download-list-item--apple">Скачать для iOS</a>
+              </li>
+              <li class="page-main__download-list-item">
+                <a href="#" class="page-main__download-list-item--android">Скачать для Android</a>
+              </li>
+              <li class="page-main__download-list-item">
+                <a href="#" class="page-main__download-list-item--windows">Скачать для Windows</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
