@@ -1,0 +1,95 @@
+.photos__post {
+  margin: 0 auto 21px;
+}
+
+.photos__panorama {
+  width: 100%;
+}
+
+.photos__wrap {
+  width: 280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 18px 19px 20px;
+  color: #283645;
+  background-color: #f2f2f2;
+}
+
+.photos__content-author {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #283645;
+  margin-bottom: 0;
+}
+
+.photos__content-author span {
+  font-size: 12px;
+  color: #283645;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.photos__content p {
+  text-align: left;
+}
+
+.photos__content-text {
+  margin-bottom: 9px;
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.photos__footer {
+  position: relative;
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #d22856;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.photos__footer::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  left: 0;
+  top: 4px;
+  background-image: url("../img/icon-heart.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.photos__post--panorama {
+  position: relative;
+}
+
+.photos__post--panorama::before {
+  position: absolute;
+  top: 0;
+  right: 4%;
+  content: "панорама дня";
+  width: 140px;
+  height: 36px;
+  font-size: 12px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #d22856;
+}
+
+.photos {
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 20px;
+}
+
+.photos__picture img {
+  display: block;
+  margin: 0 auto;
+}

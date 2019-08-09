@@ -15,23 +15,6 @@
   text-align: center;
 }
 
-.button--download {
-  max-width: 280px;
-  padding: 20px 0;
-  border: 3px solid #ffffff;
-  line-height: 1;
-  color: #ffffff;
-}
-
-.button--download:hover {
-  color: #d22856;
-  background-color: #ffffff;
-}
-
-.button--download:active {
-  color: rgba($color: #d22856, $alpha: 0.3);
-}
-
 .download__list {
   margin: 0 0 10px;
   padding: 0;
