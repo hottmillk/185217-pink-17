@@ -1,0 +1,36 @@
+.site-list {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #283645;
+}
+
+.site-list__item {
+  border-top: 1px solid #000000;
+  box-shadow: inset 0 1px 0 0 rgba($color: #ffffff, $alpha: 0.15);
+}
+
+.site-list__item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 65px;
+  padding: 18px 40px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.site-list__item a:hover {
+  color: #d22856;
+  text-decoration: underline;
+}
+
+.site-list__item a:active {
+  opacity: 0.3;
+}
